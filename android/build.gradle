@@ -106,7 +106,7 @@ def configStringPath = ExoplayerDependencies
 
 android {
     if (supportsNamespace()) {
-        namespace 'com.brentvatne.react'
+        namespace 'com.brentvatnefork.react'
 
         sourceSets {
             main {

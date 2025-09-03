@@ -2,7 +2,7 @@ package com.anonymous.ExpoExample
 
 import android.app.Application
 import android.content.res.Configuration
-import com.brentvatne.react.ReactVideoPackage
+import com.brentvatnefork.react.ReactVideoPackage
 
 import com.facebook.react.PackageList
 import com.facebook.react.ReactApplication

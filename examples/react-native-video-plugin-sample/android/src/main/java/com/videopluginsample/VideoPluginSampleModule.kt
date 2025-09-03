@@ -4,8 +4,8 @@ import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.exoplayer.util.EventLogger
-import com.brentvatne.common.toolbox.DebugLog
-import com.brentvatne.exoplayer.RNVExoplayerPlugin
+import com.brentvatnefork.common.toolbox.DebugLog
+import com.brentvatnefork.exoplayer.RNVExoplayerPlugin
 import com.facebook.react.bridge.Promise
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule

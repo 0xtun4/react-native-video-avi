@@ -31,7 +31,7 @@ export const withNotificationControls: ConfigPlugin<boolean> = (
       const existingServiceIndex = application.service.findIndex(
         (service) =>
           service?.$?.['android:name'] ===
-          'com.brentvatne.exoplayer.VideoPlaybackService',
+          'com.brentvatnefork.exoplayer.VideoPlaybackService',
       );
       if (existingServiceIndex !== -1) {
         application.service.splice(existingServiceIndex, 1);
@@ -39,7 +39,7 @@ export const withNotificationControls: ConfigPlugin<boolean> = (
 
       application.service.push({
         $: {
-          'android:name': 'com.brentvatne.exoplayer.VideoPlaybackService',
+          'android:name': 'com.brentvatnefork.exoplayer.VideoPlaybackService',
           'android:exported': 'false',
           // @ts-expect-error: 'android:foregroundServiceType' does not exist in type 'ManifestServiceAttributes'.
           'android:foregroundServiceType': 'mediaPlayback',

@@ -1,6 +1,6 @@
 package com.videopluginsample
 
-import com.brentvatne.react.ReactNativeVideoManager
+import com.brentvatnefork.react.ReactNativeVideoManager
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule
 import com.facebook.react.bridge.ReactApplicationContext
