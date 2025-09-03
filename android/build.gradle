@@ -268,6 +268,7 @@ dependencies {
             implementation(project(":media-lib-exoplayer-rtsp"))
         } else {
             implementation "androidx.media3:media3-exoplayer-rtsp:$media3_version"
+            implementation 'com.github.dburckh:Media3Avi:2.3.0'
         }
     }
 
