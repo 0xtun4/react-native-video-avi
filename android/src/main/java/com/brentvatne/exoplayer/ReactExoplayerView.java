@@ -135,6 +135,8 @@ import com.google.ads.interactivemedia.v3.api.AdEvent;
 import com.google.ads.interactivemedia.v3.api.ImaSdkFactory;
 import com.google.ads.interactivemedia.v3.api.ImaSdkSettings;
 import com.google.common.collect.ImmutableList;
+import com.homesoft.exo.MjpegRenderersFactory;
+import com.homesoft.exo.extractor.AviExtractorsFactory;
 
 import java.net.CookieHandler;
 import java.net.CookieManager;
