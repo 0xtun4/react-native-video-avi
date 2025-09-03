@@ -1,5 +1,7 @@
 [![React Native Video Component](./docs/assets/baners/rnv-banner.png)](https://thewidlarzgroup.com/?utm_source=rnv&utm_medium=readme&utm_id=banner)
 
+## Forked from react-native-video with added support for AVI / MJPEG formats
+
 The most battle-tested open-source video player component for React Native with support for DRM, offline playback, HLS/DASH streaming, and more.
 
 
