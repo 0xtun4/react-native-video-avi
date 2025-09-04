@@ -54,8 +54,6 @@
     },
     "files": [
         "android",
-        "ios",
-        "windows",
         "src",
         "lib",
         "react-native-video.podspec",
