@@ -1,6 +1,6 @@
 {
     "name": "react-native-video-avi",
-    "version": "1.9.3",
+    "version": "2.0.1",
     "description": "A <Video /> element for react-native",
     "main": "lib/index",
     "source": "src/index.ts",
