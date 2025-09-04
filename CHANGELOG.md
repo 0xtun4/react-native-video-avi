@@ -357,7 +357,7 @@
 * fix(android): build issue on the latest react-native version (#3963) (530686ca)
 * feat(fabric): updated ios podspec for implementing new architecture (#3961) (df29c231)
 * fix(android): fix wrong module name (#3959) (3f11894c)
-* refactor(android): migrate ReactVideoPackage to Kotlin (#3955) (702a0d9d)
+* refactor(android): migrate ReactVideoAVIPackage to Kotlin (#3955) (702a0d9d)
 * refactor(android): migrate VideoDecoderPropertiesModule to Kotlin (#3954) (99585987)
 * feat: bump up fabric example react-native iOS (#3951) (e5a2ee3b)
 * fix(android): added setAllowChunklessPreparation to HlsMediaSource.Factory to allow build success on projects without HLS support (#3948) (#3950) (322d7e99)

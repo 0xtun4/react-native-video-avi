@@ -2,7 +2,7 @@ package com.anonymous.ExpoExample
 
 import android.app.Application
 import android.content.res.Configuration
-import com.brentvatnefork.react.ReactVideoPackage
+import com.brentvatnefork.react.ReactVideoAVIPackage
 
 import com.facebook.react.PackageList
 import com.facebook.react.ReactApplication
@@ -25,7 +25,7 @@ class MainApplication : Application(), ReactApplication {
           override fun getPackages(): List<ReactPackage> {
             // Packages that cannot be autolinked yet can be added manually here, for example:
             var packages = PackageList(this).packages
-            packages.add(ReactVideoPackage());
+            packages.add(ReactVideoAVIPackage());
             return packages
           }
 

@@ -1,0 +1,13 @@
+examples
+mise.toml
+docs
+.*
+CONTRIBUTING.md
+CHANGELOG.md
+*.nix
+tsconfig*
+*.lock
+node_modules/
+android/.gradle/
+ios/Pods/
+*.log

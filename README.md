@@ -43,7 +43,7 @@ The most battle-tested open-source video player component for React Native with 
 ### Install
 ```bash
 # Install dependencies
-yarn add react-native-video
+yarn add react-native-video-avi
 
 # Install pods
 cd ios && pod install
@@ -51,7 +51,7 @@ cd ios && pod install
 
 ### Usage
 ```tsx
-import Video from 'react-native-video';
+import Video from 'react-native-video-avi';
 
 export default () => (
   <Video
