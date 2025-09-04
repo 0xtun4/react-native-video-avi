@@ -21,7 +21,7 @@ class ReactExoplayerViewManager(private val config: ReactExoplayerConfig) : View
 
     companion object {
         private const val TAG = "ExoViewManager"
-        private const val REACT_CLASS = "RCTVideo"
+        private const val REACT_CLASS = "RCTVideoAVI"
         private const val PROP_SRC = "src"
         private const val PROP_RESIZE_MODE = "resizeMode"
         private const val PROP_REPEAT = "repeat"

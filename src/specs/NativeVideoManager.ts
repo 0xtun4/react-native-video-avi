@@ -29,4 +29,4 @@ export interface VideoManagerType {
   getCurrentPosition: (reactTag: Int32) => Promise<Int32>;
 }
 
-export default NativeModules.VideoManager as VideoManagerType;
+export default NativeModules.VideoManagerAVI as VideoManagerType;
