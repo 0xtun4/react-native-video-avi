@@ -407,5 +407,5 @@ export interface VideoNativeProps extends ViewProps {
 type NativeVideoComponentType = HostComponent<VideoNativeProps>;
 
 export default requireNativeComponent<VideoNativeProps>(
-  'RCTVideo',
+  'RCTVideoAVI',
 ) as NativeVideoComponentType;
