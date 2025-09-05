@@ -12,4 +12,4 @@ export interface VideoDecoderInfoModuleType {
   isHEVCSupported: () => Promise<'unsupported' | 'hardware' | 'software'>;
 }
 
-export default NativeModules.VideoDecoderInfoModule as VideoDecoderInfoModuleType;
+export default NativeModules.VideoDecoderInfoModuleAVI as VideoDecoderInfoModuleType;

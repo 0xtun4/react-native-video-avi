@@ -67,6 +67,6 @@ class VideoDecoderInfoModule(reactContext: ReactApplicationContext?) : ReactCont
     companion object {
         private val WIDEVINE_UUID = UUID(-0x121074568629b532L, -0x5c37d8232ae2de13L)
         private const val SECURITY_LEVEL_PROPERTY = "securityLevel"
-        private const val REACT_CLASS = "VideoDecoderInfoModule"
+        private const val REACT_CLASS = "VideoDecoderInfoModuleAVI"
     }
 }
