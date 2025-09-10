@@ -25,6 +25,7 @@ import android.os.IBinder;
 import android.os.Looper;
 import android.os.Message;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.accessibility.CaptioningManager;
@@ -990,7 +991,7 @@ public class ReactExoplayerView extends FrameLayout implements
             throw new IllegalStateException("Invalid video uri");
         }
         int type;
-        if ("rtsp".equals(overrideExtension)) {
+        if ("rtsp".equals(overrideExtension) || "rtsp".equals(uri.getScheme())) {
             type = CONTENT_TYPE_RTSP;
         } else {
             type = Util.inferContentType(!TextUtils.isEmpty(overrideExtension) ? "." + overrideExtension

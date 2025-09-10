@@ -157,7 +157,8 @@ class ExoPlayerView @JvmOverloads constructor(context: Context, attrs: Attribute
     }
 
     fun setUseController(useController: Boolean) {
-        playerView.useController = useController
+        // playerView.useController = useController
+        playerView.useController = false
         if (useController) {
             // Ensure proper touch handling when controls are enabled
             playerView.controllerAutoShow = true
@@ -215,7 +216,7 @@ class ExoPlayerView @JvmOverloads constructor(context: Context, attrs: Attribute
         val seekable = player.isCurrentMediaItemSeekable
 
         // Show/hide badge
-        liveBadge.visibility = if (isLive) View.VISIBLE else View.GONE
+        liveBadge.visibility = View.GONE
 
         // Disable/enable scrubbing based on seekable
         val timeBar = playerView.findViewById<DefaultTimeBar?>(androidx.media3.ui.R.id.exo_progress)
