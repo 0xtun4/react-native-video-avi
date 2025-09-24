@@ -1101,7 +1101,7 @@ public class ReactExoplayerView extends FrameLayout implements
                     throw new IllegalStateException("RTSP is not enabled!");
                 }
 
-                mediaSourceFactory = new RtspMediaSource.Factory();
+                mediaSourceFactory = new RtspMediaSource.Factory().setForceUseRtpTcp(true);
                 break;
             default: {
                 throw new IllegalStateException("Unsupported type: " + type);
